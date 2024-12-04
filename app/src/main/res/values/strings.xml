@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Pow</string>
+        <!-- App Name -->
+
+        <!-- Login Screen Strings -->
+        <string name="app_logo">Ski Resort Logo</string>
+        <string name="username_hint">Username</string>
+        <string name="password_hint">Password</string>
+        <string name="login_button_text">Login</string>
+
+        <!-- Toast Messages -->
+        <string name="toast_fill_fields">Please fill in all fields</string>
+        <string name="toast_login_successful">Login successful</string>
+        <string name="toast_login_failed">Invalid username or password</string>
+
+</resources>

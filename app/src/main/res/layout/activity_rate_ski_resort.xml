@@ -1,0 +1,33 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/blur_background"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/ratingTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rate the Ski Resort"
+        android:textSize="20sp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Input field -->
+    <EditText
+        android:id="@+id/ratingEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter a rating (1-5)"
+        android:inputType="number"
+        android:maxLines="1" />
+
+    <!-- Submit rating button -->
+    <Button
+        android:id="@+id/submitRatingButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit Rating"
+        android:layout_marginTop="16dp" />
+</LinearLayout>
